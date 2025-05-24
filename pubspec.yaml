@@ -1,0 +1,188 @@
+name: pickaxe_ui
+description: "A new Flutter package project."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.8.0-278.1.beta
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+
+flutter:
+  fonts:
+    - family: Minecraft
+      fonts:
+        - asset: lib/assets/fonts/MinecraftTen.ttf
+  assets:
+    - lib/assets/textures/
+    - lib/assets/textures/backgrounds/
+
+    
+    - lib/assets/textures/dirt.png
+    - lib/assets/textures/grass.png
+    - lib/assets/textures/default/Old-default_water.png
+    - lib/assets/textures/default/OldGrass.png
+    - lib/assets/textures/default/OldGrassTop.png
+    - lib/assets/textures/default/OldWaterFlowing.png
+    - lib/assets/textures/default/OldWaterSource.png
+    - lib/assets/textures/default/bubble.png
+    - lib/assets/textures/default/bubble_gone.png
+    - lib/assets/textures/default/crack_anylength.png
+    - lib/assets/textures/default/default_acacia_bush_sapling.png
+    - lib/assets/textures/default/default_acacia_leaves.png
+    - lib/assets/textures/default/default_acacia_leaves_simple.png
+    - lib/assets/textures/default/default_acacia_sapling.png
+    - lib/assets/textures/default/default_acacia_tree.png
+    - lib/assets/textures/default/default_acacia_tree_top.png
+    - lib/assets/textures/default/default_acacia_wood.png
+    - lib/assets/textures/default/default_apple.png
+    - lib/assets/textures/default/default_aspen_leaves.png
+    - lib/assets/textures/default/default_aspen_sapling.png
+    - lib/assets/textures/default/default_aspen_tree.png
+    - lib/assets/textures/default/default_aspen_tree_top.png
+    - lib/assets/textures/default/default_aspen_wood.png
+    - lib/assets/textures/default/default_book.png
+    - lib/assets/textures/default/default_book_written.png
+    - lib/assets/textures/default/default_bookshelf.png
+    - lib/assets/textures/default/default_bookshelf_slot.png
+    - lib/assets/textures/default/default_brick.png
+    - lib/assets/textures/default/default_bush_sapling.png
+    - lib/assets/textures/default/default_cactus_side.png
+    - lib/assets/textures/default/default_cactus_top.png
+    - lib/assets/textures/default/default_chest_front.png
+    - lib/assets/textures/default/default_chest_inside.png
+    - lib/assets/textures/default/default_chest_side.png
+    - lib/assets/textures/default/default_chest_top.png
+    - lib/assets/textures/default/default_clay.png
+    - lib/assets/textures/default/default_clay_brick.png
+    - lib/assets/textures/default/default_coal_block.png
+    - lib/assets/textures/default/default_cobble.png
+    - lib/assets/textures/default/default_diamond.png
+    - lib/assets/textures/default/default_diamond_block.png
+    - lib/assets/textures/default/default_dirt.png
+    - lib/assets/textures/default/default_dry_shrub.png
+    - lib/assets/textures/default/default_emergent_jungle_sapling.png
+    - lib/assets/textures/default/default_fence_acacia_wood.png
+    - lib/assets/textures/default/default_fence_junglewood.png
+    - lib/assets/textures/default/default_fence_overlay.png
+    - lib/assets/textures/default/default_fence_rail_acacia_wood.png
+    - lib/assets/textures/default/default_fence_rail_junglewood.png
+    - lib/assets/textures/default/default_fence_rail_overlay.png
+    - lib/assets/textures/default/default_fence_rail_wood.png
+    - lib/assets/textures/default/default_fence_wood.png
+    - lib/assets/textures/default/default_fern_1.png
+    - lib/assets/textures/default/default_fern_2.png
+    - lib/assets/textures/default/default_fern_3.png
+    - lib/assets/textures/default/default_flint.png
+    - lib/assets/textures/default/default_furnace_bottom.png
+    - lib/assets/textures/default/default_furnace_fire_bg.png
+    - lib/assets/textures/default/default_furnace_fire_fg.png
+    - lib/assets/textures/default/default_furnace_front.png
+    - lib/assets/textures/default/default_furnace_front_active.png
+    - lib/assets/textures/default/default_furnace_side.png
+    - lib/assets/textures/default/default_furnace_top.png
+    - lib/assets/textures/default/default_glass.png
+    - lib/assets/textures/default/default_glass_detail.png
+    - lib/assets/textures/default/default_gold_block.png
+    - lib/assets/textures/default/default_gold_ingot.png
+    - lib/assets/textures/default/default_grass.png
+    - lib/assets/textures/default/default_grass_1.png
+    - lib/assets/textures/default/default_grass_2.png
+    - lib/assets/textures/default/default_grass_3.png
+    - lib/assets/textures/default/default_grass_4.png
+    - lib/assets/textures/default/default_grass_5.png
+    - lib/assets/textures/default/default_grass_side.png
+    - lib/assets/textures/default/default_gravel.png
+    - lib/assets/textures/default/default_ice.png
+    - lib/assets/textures/default/default_item_smoke.png
+    - lib/assets/textures/default/default_jungleleaves.png
+    - lib/assets/textures/default/default_jungleleaves_simple.png
+    - lib/assets/textures/default/default_junglesapling.png
+    - lib/assets/textures/default/default_jungletree.png
+    - lib/assets/textures/default/default_jungletree_top.png
+    - lib/assets/textures/default/default_junglewood.png
+    - lib/assets/textures/default/default_kelp.png
+    - lib/assets/textures/default/default_ladder_wood.png
+    - lib/assets/textures/default/default_lava.png
+    - lib/assets/textures/default/default_lava_flowing_animated.png
+    - lib/assets/textures/default/default_lava_source_animated.png
+    - lib/assets/textures/default/default_leaves.png
+    - lib/assets/textures/default/default_leaves_simple.png
+    - lib/assets/textures/default/default_mineral_coal.png
+    - lib/assets/textures/default/default_mineral_diamond.png
+    - lib/assets/textures/default/default_mineral_gold.png
+    - lib/assets/textures/default/default_mineral_iron.png
+    - lib/assets/textures/default/default_mossycobble.png
+    - lib/assets/textures/default/default_obsidian.png
+    - lib/assets/textures/default/default_obsidian_block.png
+    - lib/assets/textures/default/default_obsidian_glass.png
+    - lib/assets/textures/default/default_paper.png
+    - lib/assets/textures/default/default_pine_sapling.png
+    - lib/assets/textures/default/default_pine_tree.png
+    - lib/assets/textures/default/default_pine_tree_top.png
+    - lib/assets/textures/default/default_pine_wood.png
+    - lib/assets/textures/default/default_sand.png
+    - lib/assets/textures/default/default_sandstone.png
+    - lib/assets/textures/default/default_sandstone_brick.png
+    - lib/assets/textures/default/default_sapling.png
+    - lib/assets/textures/default/default_sign_wall_wood.png
+    - lib/assets/textures/default/default_sign_wood.png
+    - lib/assets/textures/default/default_snow.png
+    - lib/assets/textures/default/default_snow_side.png
+    - lib/assets/textures/default/default_snowball.png
+    - lib/assets/textures/default/default_stick.png
+    - lib/assets/textures/default/default_stone.png
+    - lib/assets/textures/default/default_stone_block.png
+    - lib/assets/textures/default/default_stone_brick.png
+    - lib/assets/textures/default/default_tool_bronzepick.png
+    - lib/assets/textures/default/default_tool_diamondaxe.png
+    - lib/assets/textures/default/default_tool_diamondpick.png
+    - lib/assets/textures/default/default_tool_diamondshovel.png
+    - lib/assets/textures/default/default_tool_diamondsword.png
+    - lib/assets/textures/default/default_tool_mesepick.png
+    - lib/assets/textures/default/default_tool_steelpick.png
+    - lib/assets/textures/default/default_tool_stoneaxe.png
+    - lib/assets/textures/default/default_tool_stonepick.png
+    - lib/assets/textures/default/default_tool_stoneshovel.png
+    #- lib/assets/textures/default/default_stonesword.png
+    - lib/assets/textures/default/default_tool_woodaxe.png
+    - lib/assets/textures/default/default_tool_woodpick.png
+    - lib/assets/textures/default/default_tool_woodshovel.png
+    - lib/assets/textures/default/default_tool_woodsword.png
+    - lib/assets/textures/default/default_torch_animated.png
+    - lib/assets/textures/default/default_torch_on_ceiling_animated.png
+    - lib/assets/textures/default/default_torch_on_floor.png
+    - lib/assets/textures/default/default_torch_on_floor_animated.png
+    - lib/assets/textures/default/default_tree.png
+    - lib/assets/textures/default/default_tree_top.png
+    - lib/assets/textures/default/default_water.png
+    - lib/assets/textures/default/default_water_flowing_animated.png
+    - lib/assets/textures/default/default_water_source_animated.png
+    - lib/assets/textures/default/default_wood.png
+    - lib/assets/textures/default/gui_formbg.png
+    - lib/assets/textures/default/gui_furnace_arrow_bg.png
+    - lib/assets/textures/default/gui_furnace_arrow_fg.png
+    - lib/assets/textures/default/gui_hb_bg.png
+    - lib/assets/textures/default/heart.png
+    - lib/assets/textures/default/heart_gone.png
+    - lib/assets/textures/default/moon.png
+    - lib/assets/textures/default/sun.png
+
+
+
+    - lib/assets/textures/backgrounds/gate.png
+    - lib/assets/textures/backgrounds/mountain.jpg
+    - lib/assets/textures/backgrounds/pond.jpg
+    - lib/assets/textures/backgrounds/sunset.png
+    - lib/assets/textures/backgrounds/temple.png
+
